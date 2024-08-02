@@ -1,0 +1,21 @@
+section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+  height: 90vh;
+}
+
+select{
+  margin-bottom: 60px;
+}
+.card{
+  width: 33%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
