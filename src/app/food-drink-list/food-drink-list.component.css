@@ -1,9 +1,11 @@
 section{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 30px;
   height: 90vh;
+  max-width: 1176px;
+  margin: 0 auto;
 }
 
 select{
@@ -13,6 +15,10 @@ select{
   width: 33%;
   height: 400px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img{

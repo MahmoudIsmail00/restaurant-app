@@ -36,9 +36,9 @@ export class FoodDrinkListComponent implements OnInit{
   }
 
   changeValue(val:number,item:FoodDrink):void{
-    if(val == 1){
+    if(val == 1 && item.quantity <20){
       item.quantity++;
-    }else{
+    }else if(val == -1){
       if(item.quantity >0){
         item.quantity--;
       }
